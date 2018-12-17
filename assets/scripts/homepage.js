@@ -87,6 +87,11 @@ jQuery(document).ready(function(){
       sub_menu.removeClass('show-sub-menu');
     }
   });
+
+  if(jQuery('#confirm-subscribe').length()){
+    _veroq.push(['track', 'confirmed_subscription', {}]);
+  }
+
 });
 
 var h          = jQuery(".nav-primary .wrap");
