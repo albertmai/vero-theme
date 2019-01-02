@@ -200,3 +200,17 @@ if (jQuery('body').hasClass('page-id-7711') || jQuery('body').hasClass('page-id-
     }
   });
 }
+
+
+///// Invisible Recaptcha
+// Blog Signup Forms
+function onSidebarBlogSubmit(token) {
+  document.getElementById("sidebar-subscribe").submit();
+}
+function onFloatingBlogSubmit(token) {
+  document.getElementById("floating-sidebar-subscribe").submit();
+}
+function onPostBlogSubmit(token) {
+  document.getElementById("post-subscribe").submit();
+
+}

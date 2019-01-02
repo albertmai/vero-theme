@@ -84,7 +84,7 @@ function add_contributors() {
 function add_subscribe_form() {
   if( is_blog_post_or_guide() ){
     ?>
-    <div class='subscribe-form center-block'>
+    <div id="post-subscribe" class='subscribe-form center-block'>
       <h2>Get our latest blog posts,<br>product news and tips straight to your inbox.</h2>
       <form action='https://app.getvero.com/forms/0eefc98b2dc881e7c0888ae698833577' method='post'>
           <input id="footer-email-address"  name='email' type='email' class="form-control" placeholder="email@address.com"></input>
@@ -92,7 +92,7 @@ function add_subscribe_form() {
           <input name='user[consent_marketing]' type='hidden' value='true' />
           <input name='user[consent_product_updates]' type='hidden' value='true' />
           <input name='user[contact_by_fax_only]' type='checkbox' value='1' style='display:none !important' tabindex="-1" autocomplete="false" />
-          <input type='submit' value='Subscribe' class="btn btn-success left-margin-tiny"/>
+          <button data-sitekey="6LeMFIYUAAAAAObiQEkriR7lyd6UGFmjGJbLYxPS" data-callback='onPostBlogSubmit' class="g-recaptcha btn btn-success left-margin-tiny">Subscribe</button>
       </form>
       <p class="mini">By subscribing, you consent to let Vero send you messages regarding marketing and product. You can learn more in our <a href="https://www.getvero.com/privacy" target="_blank">Privacy Notice</a>, and you can opt out or change your consent at any time.</p>
     </div>
