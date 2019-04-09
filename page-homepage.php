@@ -64,7 +64,7 @@
     </div>
   </div>
 </section>
-<section class="home-solutions double-padding bg-dots-strip bg-left">
+<section class="home-solutions">
   <div class="inner xlarge-inner">
     <header class="inner small-inner flush-top flush-bottom bottom-margin-medium center-text">
       <h2 class="chunk regular no-margin">Design and manage automated messages throughout the entire customer lifecycle</h2>
